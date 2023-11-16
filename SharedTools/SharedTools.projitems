@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>b31f910e-46c5-4e45-a5a2-1b8c3dcad75c</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SharedTools</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)htmlNet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonConvert.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)log.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ObjectExtentions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PropHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StartUpRoutine_base.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)strHelp.cs" />
+  </ItemGroup>
+</Project>

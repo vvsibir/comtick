@@ -1,0 +1,11 @@
+{
+  "FileListName": null,
+  "OnlyJson": "false",
+  "PageToLoad": "dl.php?file=",
+  "Run": null,
+  "ShowShell": null,
+  "TargetFolder": "DOWNLOAD",
+  "UrlUpdate": "http://xoxoxoesy.esy.es/projects/UpdatorUrl",
+  "URLJSON": "http://xoxoxoesy.esy.es/cmdv1/_common/updatecfg.json"
+
+}

